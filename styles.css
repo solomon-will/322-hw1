@@ -1,0 +1,36 @@
+mark {
+  background-color: orange;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+.highlight {
+  background-color: orange
+}
+
+.red-text {
+    color: red;  
+}
+
+.content{
+    align-items: center;
+    vertical-align: top;
+    display: inline-block;
+    text-align: left;
+    width: 300px;
+    align-self:center
+    }
+
+
+#prince{
+    max-width: 100%;
+    display: block;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; /* Keeps Index on the left */
+}
